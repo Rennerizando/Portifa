@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1b202e;
+	font-family: 'Century gothic';
+}
+
+.imagem-pro{
+	display: flex;
+	justify-content: center;
+	width: 1348px;
+	border-bottom: 1px solid white;
+}
+
+/* Inicio DA MINHA SECTION SKILL*/ 
+
+.skill{
+
+	color: aliceblue;
+	text-align: center;
+	
+}
+.skill h2{
+	padding-top: 30px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+span{
+	color: white;
+		
+}
+.corpo{
+	border-bottom: 1px solid white;
+	max-width: 1821px;
+	height: 400px;
+	
+}
+.sessao{
+	
+	display: flex;
+	justify-content: left;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+
+.todos{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.container {
+	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
+	margin-bottom: 20px;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+	border-radius: 15px;
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+.container .progress-bar{
+	
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 15px;
+   height: 100%;
+   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 100%);
+   animation: progress-animation 1s forwards;
+}
+@keyframes progress-animation{
+    0% { width: 5%; } 
+    100% { width: 90%}
+}
+
+.container1 {
+	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
+	margin-bottom: 20px;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+	border-radius: 15px;
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+.container1 .progress-bar1{
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 15px;
+   height: 100%;
+   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 160%);
+   animation: progress-animation1 1s forwards;
+}
+@keyframes progress-animation1{
+    0% { width: 5%; } 
+    100% { width: 60%}
+}
+
+
+
+.container2 {
+	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
+	margin: 0px;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+    height: 25px;
+	border-radius: 15px;
+    background-color: #CCC;
+    position: relative;
+}
+.container2 .progress-bar2{
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 15px;
+   height: 100%;
+   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 180%);
+   animation: progress-animation2 1s forwards;
+}
+@keyframes progress-animation2{
+    0% { width: 10%; } 
+    100% { width: 50%}
+}
+
+
+.sessao2{
+
+	display: flex;
+	justify-content: right;
+	margin-top: -180px;
+	margin-right: 250px;
+}
+
+.todos3{
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.container4 {
+	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
+	margin-bottom: 20px;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+	border-radius: 15px;
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+.container4 .progress-bar4{
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 15px;
+   height: 100%;
+   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 100%);
+   animation: progress-animation4 1s forwards;
+}
+@keyframes progress-animation4{
+    0% { width: 5%; } 
+    100% { width: 30%}
+}
+
+.container5 {
+	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
+	margin-bottom: 20px;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+	border-radius: 15px;
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+.container5 .progress-bar5{
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 15px;
+   height: 100%;
+   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 160%);
+   animation: progress-animation5 1s forwards;
+}
+@keyframes progress-animation5{
+    0% { width: 5%; } 
+    100% { width: 20%}
+}
+
+
+
+.container6 {
+	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
+	margin: 0px;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+    height: 25px;
+	border-radius: 15px;
+    background-color: #CCC;
+    position: relative;
+}
+.container6 .progress-bar6{
+	justify-content: center;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 15px;
+   height: 100%;
+   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 180%);
+   animation: progress-animation6 1s forwards;
+}
+@keyframes progress-animation6{
+    0% { width: 10%; } 
+    100% { width: 10%;}
+}
+
+/* FINAL DA MINHA SECTION SKILL*/ 
+.trabalhos{
+	padding-top: 30px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	color: aliceblue;
+	text-align: center;
+}
+
+.imagem-hamburgue{
+
+	width: 320px;
+	border-radius: 25px;
+	display: flex;
+	margin-left: 14px;
+	margin-top: 14px;
+	justify-content: center;
+}
+.caixa{
+	display: inline-block;
+	flex-direction: row;
+	align-content: center;
+	margin-left: 60px;
+	margin-top: 60px;
+	width: 350px;
+	height: 350px;
+	border-radius: 15px;
+	background-color: rgb(255, 255, 255);
+}
