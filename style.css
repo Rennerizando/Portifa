@@ -1,253 +1,221 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #1b202e;
-	font-family: 'Century gothic';
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'century gothic';
+    text-decoration: none;
+    list-style: none;
+    
+}
+.owl-dots{
+   
+    margin-left: 40%;
+    position: absolute;
+    top: 100px;
+
+    float: left;
+}
+/* inicio DO MEU cabeçalho */ 
+    @media screen and (max-width: 400px){
+        header{
+            width: 100%;
+            height: 7vh;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .img-logo{
+            margin: 10px;
+            width: 60px;
+        
+        }
+        nav ul{
+            
+           justify-content: center;
+            display: flex;
+            flex-direction: row;
+            margin-right: 1vw;
+            margin-top: -2rem;
+            
+        }
+        
+        li a{   
+            color: rgb(252, 101, 0);
+            text-decoration: none;
+            margin-left: 35px;
+        }
+        
+        li a:hover{
+            color: rgb(248, 134, 58);
+        }
+        
+/* final DO MEU cabeçalho */ 
+
+
+/* MEU MAIN */
+
+
+.sobre-impera-brindes{
+    
+    height: 45vh;
+    
+    
+}
+.logo-titulo{
+   
+    margin: 10px 30%;
+    display: flex;
+    width: 150px;
 }
 
-.imagem-pro{
-	display: flex;
-	justify-content: center;
-	width: 1348px;
-	border-bottom: 1px solid white;
+.sobre-impera-brindes p{
+ 
+    padding: 0px 15px;
+    text-align: center;
+    margin: 0px 0 15px 0;
+    font-weight: 700;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+/* FINAL MEU MAIN */
+
+/*MInha section produçoes*/
+
+.conteiner h2{
+    margin-top: 30px;
+    font-size: 48px;
+    text-align: center;
+    color: #212121;
 }
 
-/* Inicio DA MINHA SECTION SKILL*/ 
-
-.skill{
-
-	color: aliceblue;
-	text-align: center;
-	
-}
-.skill h2{
-	padding-top: 30px;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
+.conteiner p{
+    line-height: 25px;
+    text-align: center;
+    color: #757575;
 }
 
-span{
-	color: white;
-		
-}
-.corpo{
-	border-bottom: 1px solid white;
-	max-width: 1821px;
-	height: 400px;
-	
-}
-.sessao{
-	
-	display: flex;
-	justify-content: left;
-	margin-top: 30px;
-	margin-left: 250px;
-}
+
 
 .todos{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-.container {
-	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin-bottom: 20px;
-	text-align: center;
-	height: 150px;
-	width: 350px;
-	border-radius: 15px;
-    height: 25px;
-    background-color: #CCC;
-    position: relative;
-}
-.container .progress-bar{
-	
-	font-size: 15px;
-	color: rgba(0, 0, 0, 0.562);
-   position: absolute;
-   border-radius: 15px;
-   height: 100%;
-   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 100%);
-   animation: progress-animation 1s forwards;
-}
-@keyframes progress-animation{
-    0% { width: 5%; } 
-    100% { width: 90%}
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.container1 {
-	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin-bottom: 20px;
-	text-align: center;
-	height: 150px;
-	width: 350px;
-	border-radius: 15px;
-    height: 25px;
-    background-color: #CCC;
-    position: relative;
+.background-produto1{
+    margin: 30px 28px;
+    display: flex;
+    flex-direction: row;
+  
+   height: 24vh;
+   width: 100%;
 }
-.container1 .progress-bar1{
-	font-size: 15px;
-	color: rgba(0, 0, 0, 0.562);
-   position: absolute;
-   border-radius: 15px;
-   height: 100%;
-   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 160%);
-   animation: progress-animation1 1s forwards;
+
+.caixa-produto img{
+    width: 150px;
+    height: 150px;
 }
-@keyframes progress-animation1{
-    0% { width: 5%; } 
-    100% { width: 60%}
+.caixa-produto1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.caixa-produto{
+    overflow: hidden;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+.caixa-produto1{
+    overflow: hidden;
+    margin-left: 40px;
+    background-color: rgb(0, 86, 245);
+    width: 150px;
+    height: 150px;
 }
 
 
-
-.container2 {
-	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin: 0px;
-	text-align: center;
-	height: 150px;
-	width: 350px;
-    height: 25px;
-	border-radius: 15px;
-    background-color: #CCC;
-    position: relative;
-}
-.container2 .progress-bar2{
-	font-size: 15px;
-	color: rgba(0, 0, 0, 0.562);
-   position: absolute;
-   border-radius: 15px;
-   height: 100%;
-   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 180%);
-   animation: progress-animation2 1s forwards;
-}
-@keyframes progress-animation2{
-    0% { width: 10%; } 
-    100% { width: 50%}
+.btn-vertodos{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    background-color: rgb(56, 56, 56);
 }
 
-
-.sessao2{
-
-	display: flex;
-	justify-content: right;
-	margin-top: -180px;
-	margin-right: 250px;
-}
-
-.todos3{
-	
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-.container4 {
-	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin-bottom: 20px;
-	text-align: center;
-	height: 150px;
-	width: 350px;
-	border-radius: 15px;
-    height: 25px;
-    background-color: #CCC;
-    position: relative;
-}
-.container4 .progress-bar4{
-	font-size: 15px;
-	color: rgba(0, 0, 0, 0.562);
-   position: absolute;
-   border-radius: 15px;
-   height: 100%;
-   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 100%);
-   animation: progress-animation4 1s forwards;
-}
-@keyframes progress-animation4{
-    0% { width: 5%; } 
-    100% { width: 30%}
-}
-
-.container5 {
-	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin-bottom: 20px;
-	text-align: center;
-	height: 150px;
-	width: 350px;
-	border-radius: 15px;
-    height: 25px;
-    background-color: #CCC;
-    position: relative;
-}
-.container5 .progress-bar5{
-	font-size: 15px;
-	color: rgba(0, 0, 0, 0.562);
-   position: absolute;
-   border-radius: 15px;
-   height: 100%;
-   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 160%);
-   animation: progress-animation5 1s forwards;
-}
-@keyframes progress-animation5{
-    0% { width: 5%; } 
-    100% { width: 20%}
-}
+/*MInha section produçoes*/
 
 
 
-.container6 {
-	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin: 0px;
-	text-align: center;
-	height: 150px;
-	width: 350px;
-    height: 25px;
-	border-radius: 15px;
-    background-color: #CCC;
-    position: relative;
-}
-.container6 .progress-bar6{
-	justify-content: center;
-	font-size: 15px;
-	color: rgba(0, 0, 0, 0.562);
-   position: absolute;
-   border-radius: 15px;
-   height: 100%;
-   background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 180%);
-   animation: progress-animation6 1s forwards;
-}
-@keyframes progress-animation6{
-    0% { width: 10%; } 
-    100% { width: 10%;}
+
+/* INICIO DO MEU FOOTER */ 
+
+footer{
+    
+    display: flex;
+    height: 23vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%);
 }
 
-/* FINAL DA MINHA SECTION SKILL*/ 
-.trabalhos{
-	padding-top: 30px;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	color: aliceblue;
-	text-align: center;
+.logo-footer{
+    display: none;
+    opacity: 0.80;
+    width: 30%;
+ 
 }
 
-.imagem-hamburgue{
-
-	width: 320px;
-	border-radius: 25px;
-	display: flex;
-	margin-left: 14px;
-	margin-top: 14px;
-	justify-content: center;
+.logo-footer img{
+    
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    margin: 8% 25%;
 }
-.caixa{
-	display: inline-block;
-	flex-direction: row;
-	align-content: center;
-	margin-left: 60px;
-	margin-top: 60px;
-	width: 350px;
-	height: 350px;
-	border-radius: 15px;
-	background-color: rgb(255, 255, 255);
+
+.contato-rodape{
+    text-align: left;
+    margin-left: 1rem;
+    width: 70%;
+}
+
+.texto-rodepe{
+    margin-top: 3rem;
+}
+
+footer h2 {
+    color: black;
+}
+
+footer p{
+    color: black;
+}
+
+footer i{
+    color: rgb(97, 47, 47);
+    margin-right: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.contato-a-rodape{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-mobile{
+    margin-top: -15px;
+}
+
+.local{
+    font-size: 15px;
+}
 }
